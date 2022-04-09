@@ -1,0 +1,19 @@
+#!/usr/bin/env ruby
+
+unless ARGV.size == 1
+    msg = "\"update functions\""
+else
+    msg = "\"#{ARGV[0]}\""
+end
+
+system "clear"
+sleep 0.25
+system "git add *"
+sleep 0.25
+system "git status"
+sleep 0.25
+system "git commit -m #{msg}"
+sleep 0.25
+system "git pull"
+sleep 0.25
+system "git push"

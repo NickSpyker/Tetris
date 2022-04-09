@@ -1,0 +1,35 @@
+Key left: KEY_LEFT (260)$
+Key right: KEY_RIGHT (261)$
+Key turn:   (32)$
+Key drop: x (120)$
+Key quit: q (113)$
+Key pause: p (112)$
+Next: Yes$
+Level: 1$
+Size: 20*10$
+$
+Number of tetriminos: 7$
+Tetriminos '4': error$
+Tetriminos '5': size 1*1, color 4$
+*$
+Tetriminos '6': size 2*3, color 6$
+*$
+**$
+ *$
+Tetriminos '7': size 5*4, color 3$
+ * *$
+* * *$
+ * *$
+  *$
+Tetriminos 'bar': size 1*4, color 2$
+*$
+*$
+*$
+*$
+Tetriminos 'inverted-L': size 2*3, color 5$
+ *$
+ *$
+**$
+Tetriminos 'square': size 2*2, color 1$
+**$
+**$
